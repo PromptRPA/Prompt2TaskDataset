@@ -1,6 +1,6 @@
-## PromptRPA Dataset
+## Prompt2Task Dataset
 
-This is a dataset for the PromptRPA project. The dataset includes 2,500 textual prompts, spanning 100 tasks across 10 application domains, with a total of 533 instructions (i.e. original instructions) and 543 operations (i.e. actual instructions). Each task corresponds to a tutorial.
+This is a dataset for the Prompt2Task project. The dataset includes 2,500 textual prompts, spanning 100 tasks across 10 application domains, with a total of 533 instructions (i.e. original instructions) and 543 operations (i.e. actual instructions). Each task corresponds to a tutorial.
 
 
 
