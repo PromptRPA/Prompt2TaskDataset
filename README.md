@@ -31,7 +31,7 @@ The `tutorial.json` file contains the following fields:
 - `tutorialName`: The name of the tutorial.
 - `tutorialDetail`: The details of the tutorial, can be regarded as the original text.
 - `original_instructions`: The original instructions which are results of the Parsing Agent taking the details of the tutorial as input.
-- `actual_instructions`: The instructions which are the results of our Grounding Agent. Each instruction contains the following fields:
+- `actual_instructions`: The instructions which are the results of the Grounding Agent. Each instruction contains the following fields:
   - `targetName`: The name of the target node.
   - `type`: The type of the instruction.
   - `para`: The parameters of the instruction.
