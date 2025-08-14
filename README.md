@@ -30,7 +30,7 @@ Please note that there are 2 tutorials that **cannot be completed using the Acce
 The `tutorial.json` file contains the following fields:
 - `tutorialName`: The name of the tutorial.
 - `tutorialDetail`: The details of the tutorial, can be regarded as the original text.
-- `original_instructions`: The original instructions which are results of the Parsing Agent taking the details of the tutorial as input.
+- `original_instructions`: The original instructions which are the results of the Parsing Agent taking the details of the tutorial as input.
 - `actual_instructions`: The instructions which are the results of the Grounding Agent. Each instruction contains the following fields:
   - `targetName`: The name of the target node.
   - `type`: The type of the instruction.
@@ -39,10 +39,10 @@ The `tutorial.json` file contains the following fields:
   - `y`: The y coordinate of the target node.
   - `endX`: The x coordinate of the end of the instruction (only for scroll instructions).
   - `endY`: The y coordinate of the end of the instruction (only for scroll instructions).
-  - `storeFolder`: the folder name of the accessibility node tree of the instruction, which locates in the same directory as the `tutorial.json` file. The accessibility node tree is stored in a file named `target_node.json`.
+  - `storeFolder`: the folder name of the accessibility node tree of the instruction, which is located in the same directory as the `tutorial.json` file. The accessibility node tree is stored in a file named `target_node.json`.
   - `absoluteId`: The absolute id of the target node in the accessibility node tree.
   - `description`: The description of the instruction.
-  - `imagePath`: The path of the screenshot of the instruction, which locates in the same directory as the `tutorial.json` file. The screenshot is stored in a file named `[imagePath]` + `.jpg`.
+  - `imagePath`: The path of the screenshot of the instruction, which is located in the same directory as the `tutorial.json` file. The screenshot is stored in a file named `[imagePath]` + `.jpg`.
   
 
 
