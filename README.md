@@ -1,6 +1,6 @@
 ## Prompt2Task Dataset
 
-This is a dataset for the Prompt2Task project. The dataset includes 2,500 textual prompts, spanning 100 tasks across 10 application domains, with a total of 533 instructions (i.e. original instructions) and 543 operations (i.e. actual instructions). Each task corresponds to a tutorial.
+This is a dataset for the Prompt2Task project. The dataset includes 2,500 textual prompts, spanning 100 tasks across 10 application domains, with a total of 533 instructions (i.e., original instructions) and 543 operations (i.e., actual instructions). Each task corresponds to a tutorial.
 
 
 
@@ -19,7 +19,7 @@ The root directory contains the following:
 Each directory in the dataset is named after the tutorial it contains. Each directory contains the following files:
 
 - `tutorial.json`: A JSON file containing the metadata of the tutorial.
-- Accessibility node tree of each instructions along with the instruction's screenshot.
+- Accessibility node tree of each instruction, along with the instruction's screenshot.
 
 Please note that there are 2 tutorials that **cannot be completed using the Accessibility Service API**, which are `在华为手机中开启手写功能的步骤` and `在手机QQ中进入自习室的步骤`. Therefore, these two tutorials do not have the actual_instructions field in the `tutorial.json` file.
 
@@ -30,8 +30,8 @@ Please note that there are 2 tutorials that **cannot be completed using the Acce
 The `tutorial.json` file contains the following fields:
 - `tutorialName`: The name of the tutorial.
 - `tutorialDetail`: The details of the tutorial, can be regarded as the original text.
-- `original_instructions`: The original instructions which are the results of the Parsing Agent taking the details of the tutorial as input.
-- `actual_instructions`: The instructions which are the results of the Grounding Agent. Each instruction contains the following fields:
+- `original_instructions`: The original instructions, which are the results of the Parsing Agent taking the details of the tutorial as input.
+- `actual_instructions`: The instructions, which are the results of the Grounding Agent. Each instruction contains the following fields:
   - `targetName`: The name of the target node.
   - `type`: The type of the instruction.
   - `para`: The parameters of the instruction.
